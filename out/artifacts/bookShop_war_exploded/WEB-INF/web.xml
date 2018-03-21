@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    <servlet>
+        <servlet-name>booklist</servlet-name>
+        <servlet-class>web.servlet.BookListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>booklist</servlet-name>
+        <url-pattern>/bookListServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>bookadd</servlet-name>
+        <servlet-class>web.servlet.AddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bookadd</servlet-name>
+        <url-pattern>/addBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bookfindone</servlet-name>
+        <servlet-class>web.servlet.FindBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bookfindone</servlet-name>
+        <url-pattern>/findBookServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>updata</servlet-name>
+        <servlet-class>web.servlet.UpdateBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updata</servlet-name>
+        <url-pattern>/updateBook</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>deleteBook</servlet-name>
+        <servlet-class>web.servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteBook</servlet-name>
+        <url-pattern>/deleteServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>deleteALLBook</servlet-name>
+        <servlet-class>web.servlet.DeleteSelectBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteALLBook</servlet-name>
+        <url-pattern>/deleteSelectBooksServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchBook</servlet-name>
+        <servlet-class>web.servlet.SerchBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchBook</servlet-name>
+        <url-pattern>/serchBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productbooks</servlet-name>
+        <servlet-class>web.servlet.ShowProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productbooks</servlet-name>
+        <url-pattern>/showProductServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchBookByName</servlet-name>
+        <servlet-class>web.servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchBookByName</servlet-name>
+        <url-pattern>/searchServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showBookServlet</servlet-name>
+        <servlet-class>web.servlet.ShowBookInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showBookServlet</servlet-name>
+        <url-pattern>/showBookInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addCartServlet</servlet-name>
+        <servlet-class>web.servlet.AddCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCartServlet</servlet-name>
+        <url-pattern>/addCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>changenumServlet</servlet-name>
+        <servlet-class>web.servlet.ChangeNumServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>changenumServlet</servlet-name>
+        <url-pattern>/changeNumServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

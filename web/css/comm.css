@@ -1,0 +1,170 @@
+
+#top_left {
+    float: left;
+    margin-left: 100px;
+}
+
+#top_right {
+    margin: 20px 100px 0px 0px;
+    float: right;
+    font-size: 12px;
+
+}
+
+#top_right img {
+    margin-bottom: -5px;
+}
+
+#top_right a {
+    padding: 3px;
+    color: blue;
+    text-decoration: none;
+}
+
+#top_right a:hover {
+    color: #909;
+}
+
+.clear {
+    clear: both;
+}
+
+#meun {
+    border-top: 4px solid #82B211;
+    text-align: center;
+    background-color: #1C3F09;
+    padding: 15px 0px;
+}
+
+#meun a {
+    padding: 0 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#meun a:hover {
+    color: #999;
+}
+
+#search {
+    padding: 7px 0;
+    text-align: right;
+    background-color: #B6B684;
+}
+
+#search input[type='image'] {
+    margin-bottom: -5px;
+    margin-right: 220px;
+}
+
+/*-------------------------------------------------*/
+
+#contennt_top {
+    padding: 5px 0px;
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: -5px;
+}
+
+#contennt_top a {
+    text-decoration: none;
+    font-size: small;
+
+}
+
+#contennt_top a:hover {
+    color: #06F;
+}
+
+#content {
+    width: 900px;
+    margin: 10px auto 30px;
+}
+
+#content_body {
+    border: 1px solid #ccc;
+    background-color: #FCFDEF;
+    padding: 20px;
+    overflow: auto;
+}
+
+#content_body h1 {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#content_body hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content_body_h1 {
+    float: left;
+}
+
+#content_body_span {
+    font-size: 13px;
+    float: left;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#product_list img {
+    width: 100%;
+}
+
+.book {
+    padding: 10px 0px;
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+.book_desc {
+    font-size: 16px;
+}
+
+.book_img img {
+    width: 130px;
+    height: 197px;
+}
+
+#gotopage {
+    text-align: center;
+}
+
+#gotopage a {
+    margin: 2px;
+    padding: 1px 5px;
+    text-decoration: none;
+    border: 1px solid #0066FF;
+}
+
+#gotopage a:hover {
+    background-color: #f066FF;
+    border: 1px solid #f066FF;
+}
+
+/*-------------------------------------------------*/
+#bottom {
+    width: 100%;
+    height: 60px;
+    background-color: #EFEEDC;
+    padding: 10px 0;
+}
+
+#bottom_left {
+    width: 300px;
+    margin-left: 200px;
+    float: left;
+}
+
+#bottom_right {
+    width: 500px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 200px;
+    float: left;
+}
